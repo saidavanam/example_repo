@@ -1,8 +1,4 @@
-def add(x,y,z):
-    return x + y + z
+def add(*args):
+    return sum(args)
 
-x = int(input("Enter the number 1 "))
-y = int(input("Enter the number 2"))
-z = int(input("Enter the number 3"))
-
-print(add(x,y,z))
+print(add(1,2,3,4,5))
